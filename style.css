@@ -1,0 +1,308 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jockey+One&family=Josefin+Sans:wght@600&family=Roboto&family=Sofia&family=Ysabeau+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* ------cooomon css style--- */
+ .description {
+     font-size: 14px;
+ }
+
+ .btn {
+     background-color: #6c83a2;
+     color: white;
+     border: none;
+ }
+ 
+
+ /* --------------navbar area start----------- */
+ .logo {
+     margin-left: 50%;
+ }
+
+ .logo img {
+     width: 200px;
+ }
+
+ .navbar-brand {
+     margin-left: 10%;
+ }
+
+ .nav a {
+     color: black;
+     font-weight: 600;
+     font-family: 'Ysabeau SC', sans-serif;
+ }
+
+ .navbar-nav {
+     color: black;
+     font-size: 24px;
+     margin-right: 10%;
+     font-weight: 600;
+     font-family: 'Ysabeau SC', sans-serif;
+ }
+
+ .nav-link-style {
+     position: relative;
+     display: block;
+     padding-bottom: 2px;
+     margin-right: 15px;
+ }
+
+ .nav-link-style:hover {
+     color: rgb(125, 159, 231);
+ }
+
+ .nav-link-style:hover::before {
+     content: "";
+     position: absolute;
+     width: 50%;
+     height: 3px;
+     bottom: 0;
+     left: 3;
+     background: rgb(125, 159, 231);
+     visibility: visible;
+     transition: transform ease;
+ }
+
+ /* =----------------navbar area end--------- */
+ /* --------banner area start------ */
+ .banner-area {
+     background-color: rgba(247, 236, 243, 0.932);
+     margin-top: 100px;
+     padding: 5%;
+ }
+
+ .banner-work-title {
+     color: #6c83a2;
+ }
+
+ /* --------banner area end------- */
+ /* ----------about section css start---------- */
+ .about-area {
+     background-color: rgb(228, 236, 236);
+     padding: 5%;
+ }
+
+ .about-img img,
+ .banner-img img {
+     width: 450px;
+     margin-top: 8%;
+     margin-right: 50px;
+ }
+
+ .about-work {
+     max-width: 570px;
+     margin-left: 55px;
+ }
+
+ .about-list {
+     margin-left: -30px;
+ }
+
+ ul li {
+     font-size: 15px;
+     margin-top: 10px;
+     list-style: none;
+ }
+
+ ul li i {
+     background-color: #6c83a2;
+     border-radius: 50%;
+     color: white;
+     font-size: small;
+     padding: 5px;
+     margin-right: 10px;
+ }
+
+ /* ------about section ends------------ */
+ /* -------services area start---- */
+ .service-section {
+     padding: 5%;
+ }
+
+ .service-area {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .Service-info {
+     width: 170px;
+     height: 300px;
+     border: 1px solid #b0cee2;
+     border-radius: 5px;
+     overflow: hidden;
+     padding: 7%;
+     margin-bottom: 10%;
+ }
+
+ .Service-info:hover {
+     background-color: #f5fbff;
+ }
+
+ /* ------services area end------ */
+ /* ----project area start---- */
+ .project-section {
+     background-color: rgb(207, 217, 243);
+     padding: 5%;
+ }
+
+ .project-item {
+     width: 20%;
+     height: 200px;
+ }
+
+ .carousel-inner {
+     padding-bottom: 70px;
+ }
+
+ @media screen and (max-width :576px) {
+     .project-item {
+         width: 40%;
+         margin-bottom: 5px;
+     }
+ }
+
+ /* ----project area end--- */
+ /* -----testimonials area start----- */
+ .testimonial-section {
+     background-color: rgb(245, 250, 252);
+     padding: 5%;
+ }
+
+ .testimonial-desc {
+     border-radius: 5px;
+     padding: 20px;
+     margin-bottom: -40px;
+ }
+
+ .testimonial-desc:hover {
+     background-color: white;
+ }
+
+ .tm-people {
+     width: 70px;
+     height: 70px;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     max-width: none
+ }
+
+ .link-name {
+     font-family: "Montserrat", Sans-serif;
+     font-size: 14px;
+     color: #6c83a2
+ }
+
+ .link-position {
+     font-family: "Montserrat", Sans-serif;
+     font-size: 12px;
+     color: #6c83a2
+ }
+
+
+ /* ------testimonials area end---- */
+
+ /* ------news & blog section starts----------- */
+ .blog-area {
+     background-color: white;
+     padding: 5%;
+ }
+
+ .blog-area .card {
+     margin-bottom: 30px;
+ }
+
+ .card-header {
+     height: 200px;
+     background-image: url('./img/card-img.jpg');
+     color: white;
+     padding-top: 20%;
+ }
+
+ .card-social-icon {
+     margin-top: 10px;
+ }
+
+ .card-social-icon img {
+     color: black;
+     width: 15px;
+     height: 15px;
+ }
+
+ .card-social-description {
+     margin-top: 14px;
+     margin-left: 10px;
+     font-size: 12px;
+ }
+
+ .card-link {
+     text-decoration: none;
+     color: black;
+ }
+
+ .card-link i {
+     margin-left: 10px;
+ }
+
+ .card-link:hover {
+     color: rgb(125, 159, 231);
+ }
+
+ .card:hover {
+     background-color: rgba(234, 239, 240, 0.932);
+ }
+
+ /* -----news & blog section ends */
+ /* ----clients area start--- */
+ .clients-section {
+     background-color: aliceblue;
+     padding: 5%;
+ }
+
+ .inspringg {
+     width: 90px;
+ }
+
+ .clients-item:hover {
+     background-color: #b0cee2;
+ }
+
+ @media screen and (max-width :576px) {
+     .inspringg {
+         width: 40%;
+         height: 100px;
+         margin-bottom: 5px;
+         padding: 5%;
+     }
+ }
+
+ /* ----clients area end--- */
+
+ /* -----footer area  */
+ .footer-section{
+    background-color: white;
+    padding: 5%;
+ }
+ .footer-title{
+    margin-left: 25px;
+ }
+ /* .footer-title::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    bottom: 0;
+    left: 3;
+    background: rgb(125, 159, 231);
+    visibility: visible;
+    transition: transform ease;
+} */
+ .footer-list a {
+     text-decoration: none;
+     color: black;
+ }
